@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import { Navbar, IconNav, CarrouselHome, BedroomsContainer, GaleryImgs, Location, Contact, Footer } from './components/Index'
 
 function App() {
