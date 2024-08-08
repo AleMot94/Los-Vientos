@@ -1,7 +1,11 @@
 /* ABSTRACTS */
-@use './sass/abstracts/variables';
-@use './sass/abstracts/mixins';
+@use './scss/abstracts/variables';
+@use './scss/abstracts/mixins';
 
 /* BASES */
-@use './sass/bases/base';
-@use './sass/bases/resets';
+@use './scss/bases/base';
+@use './scss/bases/resets';
+
+/* COMPONENTS */
+@use './components/IconNav/iconNav';
+@use './components/Navbar/navBar'
