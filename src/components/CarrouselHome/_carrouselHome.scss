@@ -1,0 +1,33 @@
+.slider-frame {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  animation: slide 15s infinite alternate ease-in-out;
+
+  ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    li {
+      list-style: none;
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  0% {margin-left: 0%;}
+  30% {margin-left: 0%;}
+
+  33% {margin-left: -100%;}
+  63% {margin-left: -100%;}
+
+  66% {margin-left: -200%;}
+  96% {margin-left: -200%;}
+}
