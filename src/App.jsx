@@ -1,5 +1,5 @@
 import './App.scss'
-import { Navbar, IconNav, CarrouselHome, BedroomsContainer, GaleryImgs, Location, Contact, Footer } from './components/Index'
+import { Navbar, IconNav, SlaiderlHome, BedroomsContainer, GaleryImgs, Location, Contact, Footer } from './components/Index'
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
         </div>
       </header>
       <main>
-        <CarrouselHome />
+        <SlaiderlHome />
         <BedroomsContainer />
         <GaleryImgs />
         <Location />

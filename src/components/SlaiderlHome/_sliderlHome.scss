@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   overflow: hidden;
+  position: relative;
 
   ul {
     display: flex;
@@ -32,4 +33,3 @@
   75% {margin-left: -300%;}
   95% {margin-left: -300%;}
 }
-

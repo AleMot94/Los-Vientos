@@ -1,13 +1,13 @@
 import { sliderImgs } from "../../mooks/slider-mook"
 
-const CarrouselHome = () => {
+const SlaiderlHome = () => {
   return (
     <section>
       <div className="slider-frame">
         <ul>
-          {sliderImgs.map((img) => {
+          {sliderImgs.map((slider) => {
             return (
-              <li key={img}><img src={img} /></li>
+              <li key={slider.id}><img src={slider.img} alt={slider.id} name={slider.id} /></li>
             )
           })}
         </ul>
@@ -16,4 +16,4 @@ const CarrouselHome = () => {
   )
 }
 
-export default CarrouselHome
+export default SlaiderlHome
