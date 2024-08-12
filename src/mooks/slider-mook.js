@@ -1,22 +1,23 @@
-import carrusel1 from "../assets/Carrusel/carrusel1.jpg"
-import carrusel2 from "../assets/Carrusel/carrusel2.jpg"
-import carrusel3 from "../assets/Carrusel/carrusel3.jpg"
+import IngresoHosteria from "../assets/Slider/Ingreso-Hosteria.jpg";
+import Asador from "../assets/Slider/Asador.jpg";
+import Piscina from "../assets/Slider/Piscina.jpg";
+import SalaEstar from "../assets/Slider/Sala-Estar.jpg";
 
 export const sliderImgs = [
   {
-    img: carrusel1,
-    id: 1
+    img: IngresoHosteria,
+    id: 1,
   },
   {
-    img: carrusel2,
-    id: 2
+    img: Piscina,
+    id: 2,
   },
   {
-    img: carrusel3,
-    id: 3
+    img: Asador,
+    id: 3,
   },
   {
-    img: carrusel1,
-    id: 4
+    img: SalaEstar,
+    id: 4,
   },
-]
+];
