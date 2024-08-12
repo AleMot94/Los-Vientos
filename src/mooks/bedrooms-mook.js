@@ -30,5 +30,17 @@ export const bedrooms = [
     img: bedroom,
     name: "Nombre5",
     description: "una descripcion"
+  },
+    {
+    id: 6,
+    img: bedroom,
+    name: "Nombre6",
+    description: "una descripcion"
+  },
+    {
+    id: 7,
+    img: bedroom,
+    name: "Nombre7",
+    description: "una descripcion"
   }
 ]
