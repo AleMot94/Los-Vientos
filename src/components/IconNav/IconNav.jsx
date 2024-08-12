@@ -1,6 +1,6 @@
 const IconNav = () => {
   return (
-    <div>
+    <div className="inconNav-container">
       <p>imagen</p>
       <p>datos</p>
     </div>

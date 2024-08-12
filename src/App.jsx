@@ -1,18 +1,18 @@
 import './App.scss'
-import { Navbar, IconNav, CarrouselHome, BedroomsContainer, GaleryImgs, Location, Contact, Footer } from './components/Index'
+import { Navbar, IconNav, SlaiderlHome, BedroomsContainer, GaleryImgs, Location, Contact, Footer } from './components/Index'
 
 function App() {
 
   return (
     <>
       <header>
-        <div>
+        <div className='header-container'>
           <IconNav/>
           <Navbar/>
         </div>
       </header>
       <main>
-        <CarrouselHome />
+        <SlaiderlHome />
         <BedroomsContainer />
         <GaleryImgs />
         <Location />
