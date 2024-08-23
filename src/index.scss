@@ -1,13 +1,13 @@
 /* ABSTRACTS */
-@use './scss/abstracts/variables';
-@use './scss/abstracts/mixins';
+@use "./scss/abstracts/variables";
+@use "./scss/abstracts/mixins";
 
 /* BASES */
-@use './scss/bases/base';
-@use './scss/bases/resets';
+@use "./scss/bases/base";
+@use "./scss/bases/resets";
 
 /* COMPONENTS */
-@use './components/IconNav/iconNav';
-@use './components/Navbar/navBar';
-@use './components/SlaiderlHome/sliderlHome';
-@use './components/Bedrooms/bedroomsContainer'
+@use "./components/IconNav/iconNav";
+@use "./components/Navbar/navBar";
+@use "./components/SliderlHome/sliderlHome";
+@use "./components/Bedrooms/bedroomsContainer";
