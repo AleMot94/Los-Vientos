@@ -1,4 +1,4 @@
-import { bedrooms } from "../../mooks/bedrooms-mook"
+import { bedrooms } from "../../mooks/bedrooms-mook";
 
 const BedroomsContainer = () => {
   return (
@@ -10,15 +10,19 @@ const BedroomsContainer = () => {
             <li key={bedroom.id}>
               <div>
                 <h3>{bedroom.name}</h3>
-                <img src={bedroom.img} alt={bedroom.name} name={bedroom.name} />
+                <img
+                  src={bedroom.imgs[0].img}
+                  alt={bedroom.name}
+                  name={bedroom.name}
+                />
                 <p>{bedroom.description}</p>
               </div>
             </li>
-          )
+          );
         })}
       </ul>
     </section>
-  )
-}
+  );
+};
 
-export default BedroomsContainer
+export default BedroomsContainer;
