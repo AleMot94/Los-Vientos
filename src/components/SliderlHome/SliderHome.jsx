@@ -1,6 +1,6 @@
 import { sliderImgs } from "../../mooks/slider-mook";
 
-const SlaiderlHome = () => {
+const SliderlHome = () => {
   return (
     <section className="container-slider">
       <div className="slider-frame">
@@ -18,4 +18,4 @@ const SlaiderlHome = () => {
   );
 };
 
-export default SlaiderlHome;
+export default SliderlHome;

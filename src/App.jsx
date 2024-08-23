@@ -1,28 +1,36 @@
-import './App.scss'
-import { Navbar, IconNav, SlaiderlHome, BedroomsContainer, GaleryImgs, Location, Contact, Footer } from './components/Index'
+import "./App.scss";
+import {
+  Navbar,
+  IconNav,
+  SliderlHome,
+  BedroomsContainer,
+  GaleryImgs,
+  Location,
+  Contact,
+  Footer,
+} from "./components/Index";
 
 function App() {
-
   return (
     <>
       <header>
-        <div className='header-container'>
-          <IconNav/>
-          <Navbar/>
+        <div className="header-container">
+          <IconNav />
+          <Navbar />
         </div>
       </header>
       <main>
-        <SlaiderlHome />
+        <SliderlHome />
         <BedroomsContainer />
         <GaleryImgs />
         <Location />
-        <Contact/>
+        <Contact />
       </main>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
