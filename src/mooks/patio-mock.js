@@ -1,9 +1,9 @@
-import patio from "../assets/Area-Comun/patio.jpg";
-import patio1 from "../assets/Area-Comun/patio1.jpg";
-import patio2 from "../assets/Area-Comun/patio2.jpg";
-import patio3 from "../assets/Area-Comun/patio3.jpg";
-import patio4 from "../assets/Area-Comun/patio4.jpg";
-import patio5 from "../assets/Area-Comun/patio5.jpg";
+import patio from "../assets/Patio/patio.jpg";
+import patio1 from "../assets/Patio/patio1.jpg";
+import patio2 from "../assets/Patio/patio2.jpg";
+import patio3 from "../assets/Patio/patio3.jpg";
+import patio4 from "../assets/Patio/patio4.jpg";
+import patio5 from "../assets/Patio/patio5.jpg";
 
 export const patioArray = [
   {
