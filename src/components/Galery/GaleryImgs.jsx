@@ -3,7 +3,13 @@ import { arrayAreaComun } from "../../mooks/area-comun-mock"
 import { patioArray } from "../../mooks/patio-mock"
 import { arrayPiscina } from "../../mooks/piscina-mock"
 
-const buttonsArray = ["todo", "habitaciones", "area-comun", "patio", "pileta"]
+/* const buttonsArray = ["todo", "habitaciones", "area-comun", "patio", "pileta"] */
+
+const arrayBedrooms = bedrooms.flatMap((bedroom) => bedroom.imgs)
+
+const imgsArray = [...arrayAreaComun, ...patioArray, ...arrayPiscina, ...arrayBedrooms]
+
+const buttonsArray = ["todo", ...new Set(imgsArray.map((img) => img.category))]
 
 const GaleryImgs = () => {
   return (
@@ -17,6 +23,13 @@ const GaleryImgs = () => {
             )
           })}
         </ul>
+      </div>
+      <div>
+        {imgsArray.map((img) => {
+          return (
+            <img key={img.id} src={img.img} style={{width: "100px"}}/>
+          )
+        })}
       </div>
     </section>
   )

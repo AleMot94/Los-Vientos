@@ -4,18 +4,21 @@ import piscina2 from "../assets/Piscina/piscina2.jpg";
 
 export const arrayPiscina = [
   {
-    id: 1,
+    id: 47,
     img: piscina,
     name: "foto de piscina",
+    category: "piscina"
   },
   {
-    id: 2,
+    id: 48,
     img: piscina1,
     name: "foto de piscina1",
+    category: "piscina"
   },
   {
-    id: 3,
+    id: 49,
     img: piscina2,
     name: "foto de piscina2",
+    category: "piscina"
   },
 ];
