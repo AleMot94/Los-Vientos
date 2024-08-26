@@ -1,0 +1,12 @@
+.galery-conteiner {
+  div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 200px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

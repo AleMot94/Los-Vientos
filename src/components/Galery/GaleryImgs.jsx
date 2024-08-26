@@ -13,7 +13,7 @@ const buttonsArray = ["todo", ...new Set(imgsArray.map((img) => img.category))]
 
 const GaleryImgs = () => {
   return (
-    <section>
+    <section className="galery-conteiner">
       <p>GALERIA</p>
       <div>
         <ul>
@@ -27,7 +27,7 @@ const GaleryImgs = () => {
       <div>
         {imgsArray.map((img) => {
           return (
-            <img key={img.id} src={img.img} style={{width: "100px"}}/>
+            <img key={img.id} src={img.img} alt={img.name + "foto"} />
           )
         })}
       </div>

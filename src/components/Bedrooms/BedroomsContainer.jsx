@@ -12,7 +12,7 @@ const BedroomsContainer = () => {
                 <h3>{bedroom.name}</h3>
                 <img
                   src={bedroom.imgs[0].img}
-                  alt={bedroom.name}
+                  alt={bedroom.name + "foto"}
                   name={bedroom.name}
                 />
                 <p>{bedroom.description}</p>

@@ -8,7 +8,7 @@ const SliderlHome = () => {
           {sliderImgs.map((slider) => {
             return (
               <li key={slider.id}>
-                <img src={slider.img} alt={slider.id} name={slider.id} />
+                <img src={slider.img} alt={slider.name + "foto"} name={slider.id} />
               </li>
             );
           })}
