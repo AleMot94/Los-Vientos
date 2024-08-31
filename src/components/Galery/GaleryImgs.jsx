@@ -15,8 +15,8 @@ const GaleryImgs = () => {
   return (
     <section className="galery-conteiner">
       <p>GALERIA</p>
-      <div>
-        <ul>
+      <div className="buttons-container-galery">
+        <ul className="buttons-filter-galery">
           {buttonsArray.map((button) => {
             return (
               <button key={button}>{button}</button>
@@ -24,7 +24,8 @@ const GaleryImgs = () => {
           })}
         </ul>
       </div>
-      <div>
+
+      <div className="galery-imgs">
         {imgsArray.map((img) => {
           return (
             <img key={img.id} src={img.img} alt={img.name + "foto"} />
