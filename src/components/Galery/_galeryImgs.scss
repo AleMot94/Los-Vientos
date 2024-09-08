@@ -1,0 +1,27 @@
+.galery-conteiner {
+
+  .buttons-container-galery {
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttons-filter-galery {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .galery-imgs {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 200px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  }
+

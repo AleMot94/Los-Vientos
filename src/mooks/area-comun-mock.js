@@ -9,25 +9,30 @@ export const arrayAreaComun = [
     id: 1,
     img: comedor,
     name: "comedor",
+    category: "area-comun"
   },
   {
     id: 2,
     img: comedor1,
     name: "comedor1",
+    category: "area-comun"
   },
   {
     id: 3,
     img: comedor2,
     name: "comedor2",
+    category: "area-comun"
   },
   {
     id: 4,
     img: salaComun,
     name: "sala comun",
+    category: "area-comun"
   },
   {
     id: 5,
     img: salaComun1,
     name: "sala comun 1",
+    category: "area-comun"
   },
 ];

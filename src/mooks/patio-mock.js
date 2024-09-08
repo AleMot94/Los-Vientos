@@ -1,39 +1,45 @@
-import patio from "../assets/Area-Comun/patio.jpg";
-import patio1 from "../assets/Area-Comun/patio1.jpg";
-import patio2 from "../assets/Area-Comun/patio2.jpg";
-import patio3 from "../assets/Area-Comun/patio3.jpg";
-import patio4 from "../assets/Area-Comun/patio4.jpg";
-import patio5 from "../assets/Area-Comun/patio5.jpg";
+import patio from "../assets/Patio/patio.jpg";
+import patio1 from "../assets/Patio/patio1.jpg";
+import patio2 from "../assets/Patio/patio2.jpg";
+import patio3 from "../assets/Patio/patio3.jpg";
+import patio4 from "../assets/Patio/patio4.jpg";
+import patio5 from "../assets/Patio/patio5.jpg";
 
 export const patioArray = [
   {
-    id: 1,
+    id: 41,
     img: patio,
     name: "patio",
+    category: "patio"
   },
   {
-    id: 2,
+    id: 42,
     img: patio1,
     name: "patio1",
+    category: "patio"
   },
   {
-    id: 3,
+    id: 43,
     img: patio2,
     name: "patio2",
+    category: "patio"
   },
   {
-    id: 4,
+    id: 44,
     img: patio3,
     name: "patio3",
+    category: "patio"
   },
   {
-    id: 5,
+    id: 45,
     img: patio4,
     name: "patio4",
+    category: "patio"
   },
   {
-    id: 6,
+    id: 46,
     img: patio5,
     name: "patio5",
+    category: "patio"
   },
 ];

@@ -44,11 +44,11 @@ export const bedrooms = [
   {
     id: 1,
     imgs: [
-      { id: 1, img: sonqoyPortada, name: "portada habitacion" },
-      { id: 2, img: sonqoyBanio, name: "baño habitacion" },
-      { id: 3, img: sonqoyBanio1, name: "baño habitacion" },
-      { id: 4, img: sonqoyCamas, name: "camas habitacion" },
-      { id: 5, img: sonqoyEntrada, name: "entrada habitacion" },
+      { id: 6, img: sonqoyPortada, name: "portada habitacion", category: "bedrooms" },
+      { id: 7, img: sonqoyBanio, name: "baño habitacion", category: "bedrooms" },
+      { id: 8, img: sonqoyBanio1, name: "baño habitacion", category: "bedrooms" },
+      { id: 9, img: sonqoyCamas, name: "camas habitacion", category: "bedrooms" },
+      { id: 10, img: sonqoyEntrada, name: "entrada habitacion", category: "bedrooms" },
     ],
     name: "Sonqoy",
     description: "Habitación doble matrimonial",
@@ -56,11 +56,11 @@ export const bedrooms = [
   {
     id: 2,
     imgs: [
-      { id: 1, img: elFuegoPortada, name: "portada habitacion" },
-      { id: 2, img: elFuegoBanio, name: "baño habitacion" },
-      { id: 3, img: elFuegoBanio1, name: "baño habitacion" },
-      { id: 4, img: elFuegoCamas, name: "camas habitacion" },
-      { id: 5, img: elFuegoEntrada, name: "entrada habitacion" },
+      { id: 11, img: elFuegoPortada, name: "portada habitacion", category: "bedrooms" },
+      { id: 12, img: elFuegoBanio, name: "baño habitacion", category: "bedrooms" },
+      { id: 13, img: elFuegoBanio1, name: "baño habitacion", category: "bedrooms" },
+      { id: 14, img: elFuegoCamas, name: "camas habitacion", category: "bedrooms" },
+      { id: 15, img: elFuegoEntrada, name: "entrada habitacion", category: "bedrooms" },
     ],
     name: "El Fuego",
     description: "Habitación doble con camas individuales",
@@ -68,11 +68,11 @@ export const bedrooms = [
   {
     id: 3,
     imgs: [
-      { id: 1, img: losBuhosPortada, name: "portada habitacion" },
-      { id: 2, img: losBuhosBanio, name: "baño habitacion" },
-      { id: 3, img: losBuhosCamas1, name: "camas habitacion" },
-      { id: 4, img: losBuhosCamas, name: "camas habitacion" },
-      { id: 5, img: losBuhosEntrada, name: "entrada habitacion" },
+      { id: 16, img: losBuhosPortada, name: "portada habitacion", category: "bedrooms" },
+      { id: 17, img: losBuhosBanio, name: "baño habitacion", category: "bedrooms" },
+      { id: 18, img: losBuhosCamas1, name: "camas habitacion", category: "bedrooms" },
+      { id: 19, img: losBuhosCamas, name: "camas habitacion", category: "bedrooms" },
+      { id: 20, img: losBuhosEntrada, name: "entrada habitacion", category: "bedrooms" },
     ],
     name: "Los Buhos",
     description: "Habitación triple, cama individual y matrimonial",
@@ -80,11 +80,11 @@ export const bedrooms = [
   {
     id: 4,
     imgs: [
-      { id: 1, img: elAmanecerPortada, name: "portada habitacion" },
-      { id: 2, img: elAmanecerBanio, name: "baño habitacion" },
-      { id: 3, img: elAmanecerCamas1, name: "camas habitacion" },
-      { id: 4, img: elAmanecerCamas, name: "camas habitacion" },
-      { id: 5, img: elAmanecerEntrada, name: "entrada habitacion" },
+      { id: 21, img: elAmanecerPortada, name: "portada habitacion", category: "bedrooms" },
+      { id: 22, img: elAmanecerBanio, name: "baño habitacion", category: "bedrooms" },
+      { id: 23, img: elAmanecerCamas1, name: "camas habitacion", category: "bedrooms" },
+      { id: 24, img: elAmanecerCamas, name: "camas habitacion", category: "bedrooms" },
+      { id: 25, img: elAmanecerEntrada, name: "entrada habitacion", category: "bedrooms" },
     ],
     name: "El Amanecer",
     description:
@@ -93,11 +93,11 @@ export const bedrooms = [
   {
     id: 5,
     imgs: [
-      { id: 1, img: losTerosPortada, name: "portada habitacion" },
-      { id: 2, img: losTerosBanio, name: "baño habitacion" },
-      { id: 3, img: losTerosCamas1, name: "camas habitacion" },
-      { id: 4, img: losTerosCamas, name: "camas habitacion" },
-      { id: 5, img: losTerosBanio1, name: "baño habitacion" },
+      { id: 26, img: losTerosPortada, name: "portada habitacion", category: "bedrooms" },
+      { id: 27, img: losTerosBanio, name: "baño habitacion", category: "bedrooms" },
+      { id: 28, img: losTerosCamas1, name: "camas habitacion", category: "bedrooms" },
+      { id: 29, img: losTerosCamas, name: "camas habitacion", category: "bedrooms" },
+      { id: 30, img: losTerosBanio1, name: "baño habitacion", category: "bedrooms" },
     ],
     name: "Los Teros",
     description:
@@ -106,11 +106,11 @@ export const bedrooms = [
   {
     id: 6,
     imgs: [
-      { id: 1, img: elAtardecerPortada, name: "portada habitacion" },
-      { id: 2, img: elAtardecerBanio, name: "baño habitacion" },
-      { id: 3, img: elAtardecerCamas1, name: "camas habitacion" },
-      { id: 4, img: elAtardecerCamas, name: "camas habitacion" },
-      { id: 5, img: elAtardecerEntrada, name: "entrada habitacion" },
+      { id: 31, img: elAtardecerPortada, name: "portada habitacion", category: "bedrooms" },
+      { id: 32, img: elAtardecerBanio, name: "baño habitacion", category: "bedrooms" },
+      { id: 33, img: elAtardecerCamas1, name: "camas habitacion", category: "bedrooms" },
+      { id: 34, img: elAtardecerCamas, name: "camas habitacion", category: "bedrooms" },
+      { id: 35, img: elAtardecerEntrada, name: "entrada habitacion", category: "bedrooms" },
     ],
     name: "El Atardecer",
     description:
@@ -119,11 +119,11 @@ export const bedrooms = [
   {
     id: 7,
     imgs: [
-      { id: 1, img: huayraHuasiPortada, name: "portada habitacion" },
-      { id: 2, img: huayraHuasiBanio, name: "baño habitacion" },
-      { id: 3, img: huayraHuasiCamas1, name: "camas habitacion" },
-      { id: 4, img: huayraHuasiCamas, name: "camas habitacion" },
-      { id: 5, img: huayraHuasiPasillo, name: "pasillo habitacion" },
+      { id: 36, img: huayraHuasiPortada, name: "portada habitacion", category: "bedrooms" },
+      { id: 37, img: huayraHuasiBanio, name: "baño habitacion", category: "bedrooms" },
+      { id: 38, img: huayraHuasiCamas1, name: "camas habitacion", category: "bedrooms" },
+      { id: 39, img: huayraHuasiCamas, name: "camas habitacion", category: "bedrooms" },
+      { id: 40, img: huayraHuasiPasillo, name: "pasillo habitacion", category: "bedrooms" },
     ],
     name: "Huayra Huasi",
     description:
