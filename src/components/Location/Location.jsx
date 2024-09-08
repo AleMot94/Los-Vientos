@@ -1,7 +1,7 @@
 const Location = () => {
   return (
-    <section>
-      <p>UBICACION</p>
+    <section className="location-conteiner">
+      <h2>UBICACION</h2>
     </section>
   )
 }

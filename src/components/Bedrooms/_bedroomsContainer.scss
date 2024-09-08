@@ -6,5 +6,9 @@
   ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
+    li {
+      border: 1.5px solid #000;
+    }
   }
 }
