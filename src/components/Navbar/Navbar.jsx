@@ -3,11 +3,11 @@ const Navbar = () => {
     <>
       <nav>
         <ul>
-          <li>Inicio</li>
-          <li>Habitaciones</li>
-          <li>Galeria</li>
-          <li>Ubicación</li>
-          <li>Contacto</li>
+          <li><button>Inicio</button></li>
+          <li><button>Habitaciones</button></li>
+          <li><button>Galeria</button></li>
+          <li><button>Ubicación</button></li>
+          <li><button>Contacto</button></li>
         </ul>
       </nav>
     </>
