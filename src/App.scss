@@ -1,4 +1,9 @@
-.header-container {
-  display: flex;
-  justify-content: space-around;
+@use "../src/scss/abstracts/variables" as *;
+
+header {
+  div {
+    display: flex;
+    justify-content: space-around;
+  }
 }
+

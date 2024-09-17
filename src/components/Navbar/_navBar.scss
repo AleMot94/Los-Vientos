@@ -1,6 +1,10 @@
+@use "../../scss/abstracts/variables" as *;
+
 nav {
-  background-color: red;
+  background-color: $primary-color;
   flex: 2;
+  border: 1.5px solid #000;
+  
   ul {
     height: 100%;
     display: flex;

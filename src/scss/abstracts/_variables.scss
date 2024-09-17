@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-:root {
-  --font-roboto: "Roboto Mono", monospace;
-}
+// TIPOGRAFIA
+$tipografy: "Roboto Mono", monospace;
+
+// COLORES
+$primary-color: #3498db;     // Azul (primario)
+$secondary-color: #2ecc71;   // Verde (secundario)
+$background-color: #f5f5f5;  // Gris claro (fondo)
+$text-color: #5c2f2f;        // Gris oscuro (texto)
+$accent-color: #e74c3c;      // Rojo (acento)
